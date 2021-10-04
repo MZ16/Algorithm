@@ -65,9 +65,9 @@ int main() {
 		if (cnt == 1) {
 			printf("%d", DeQ(&pq));
 			break;
-		}	
+		}
 		DeQ(&pq);
-		EnQ(&pq, DeQ(&pq));							
+		EnQ(&pq, DeQ(&pq));		
 		}
 	return 0;
 }
