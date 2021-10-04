@@ -123,5 +123,8 @@
     <ClCompile Include="요세푸스 문제(1158).cpp">
       <Filter>소스 파일\큐</Filter>
     </ClCompile>
+    <ClCompile Include="카드2(2164).cpp">
+      <Filter>소스 파일\큐</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
