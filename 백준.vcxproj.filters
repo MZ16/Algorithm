@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\스택">
       <UniqueIdentifier>{aed0f33d-5746-402e-9859-bf7a4c70e830}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\큐">
+      <UniqueIdentifier>{4e25e8f9-16fd-4753-9885-baebbc043024}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="별찍기_2.cpp">
@@ -113,6 +116,9 @@
     </ClCompile>
     <ClCompile Include="합(2493).cpp">
       <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="큐(10845).cpp">
+      <Filter>소스 파일\큐</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
