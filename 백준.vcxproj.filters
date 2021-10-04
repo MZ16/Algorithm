@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\수학">
+      <UniqueIdentifier>{3d3ba257-ff5f-430e-a73a-96adc9b8457d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\구현">
+      <UniqueIdentifier>{3de476eb-5027-4b5f-b698-838eabf79e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DP">
+      <UniqueIdentifier>{0e733e8b-7040-422f-a6c4-23f4a224e26a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\그래프 이론">
+      <UniqueIdentifier>{ccb1a8b8-2de8-48e1-be3c-899d8aa124a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\자료 구조">
+      <UniqueIdentifier>{889853cc-194f-4c85-83d5-ab5b410bb2a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\문자열">
+      <UniqueIdentifier>{5a14cfe8-b645-43aa-92b8-72f038abe4d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\브루트포스">
+      <UniqueIdentifier>{87e54a84-c20f-4fb5-83bd-45238150cfd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\그리디">
+      <UniqueIdentifier>{b762560c-c016-4710-b49a-9cf98a38ab3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DFS">
+      <UniqueIdentifier>{d7ccd964-ed8a-436c-a11b-e1fe5077a915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BFS">
+      <UniqueIdentifier>{177c0b4e-0e0c-4921-b739-db832b9353fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\이분 탐색">
+      <UniqueIdentifier>{b23d2c40-9876-4fe8-a226-13ce0417b219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\연결리스트">
+      <UniqueIdentifier>{af0c50ab-0ea5-4fe5-9c0d-26343ff6a833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\스택">
+      <UniqueIdentifier>{aed0f33d-5746-402e-9859-bf7a4c70e830}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="별찍기_2.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="합.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="고양이.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="두 수 비교.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기_4.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="상수.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="팩토리얼.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치 수열.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기_5.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="단어의 개수.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="이중 연결 리스트(3045).cpp">
+      <Filter>소스 파일\연결리스트</Filter>
+    </ClCompile>
+    <ClCompile Include="에디터(1406).cpp">
+      <Filter>소스 파일\연결리스트</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일\연결리스트</Filter>
+    </ClCompile>
+    <ClCompile Include="스택(10828).cpp">
+      <Filter>소스 파일\스택</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호(9012).cpp">
+      <Filter>소스 파일\스택</Filter>
+    </ClCompile>
+    <ClCompile Include="제로(10773).cpp">
+      <Filter>소스 파일\스택</Filter>
+    </ClCompile>
+    <ClCompile Include="후위 표기식(1918).cpp">
+      <Filter>소스 파일\스택</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호의 값(2504).cpp">
+      <Filter>소스 파일\스택</Filter>
+    </ClCompile>
+    <ClCompile Include="후위표기식(연습).cpp">
+      <Filter>소스 파일\스택</Filter>
+    </ClCompile>
+    <ClCompile Include="합(2493).cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
