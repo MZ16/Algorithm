@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\큐">
       <UniqueIdentifier>{4e25e8f9-16fd-4753-9885-baebbc043024}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\덱">
+      <UniqueIdentifier>{8be485a5-8abc-4b5c-b8a8-5dbc1bddd565}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="별찍기_2.cpp">
@@ -125,6 +128,12 @@
     </ClCompile>
     <ClCompile Include="카드2(2164).cpp">
       <Filter>소스 파일\큐</Filter>
+    </ClCompile>
+    <ClCompile Include="덱%2810866%29.cpp">
+      <Filter>소스 파일\덱</Filter>
+    </ClCompile>
+    <ClCompile Include="반전 요세푸스(20301).cpp">
+      <Filter>소스 파일\덱</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
