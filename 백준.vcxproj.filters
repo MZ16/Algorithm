@@ -141,5 +141,11 @@
     <ClCompile Include="x보다 작은수(10871).cpp">
       <Filter>소스 파일\구현</Filter>
     </ClCompile>
+    <ClCompile Include="AC(5430).cpp">
+      <Filter>소스 파일\덱</Filter>
+    </ClCompile>
+    <ClCompile Include="소스1.cpp">
+      <Filter>소스 파일\덱</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
