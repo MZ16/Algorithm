@@ -135,5 +135,11 @@
     <ClCompile Include="반전 요세푸스(20301).cpp">
       <Filter>소스 파일\덱</Filter>
     </ClCompile>
+    <ClCompile Include="별찍기_1(2438).cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="x보다 작은수(10871).cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
