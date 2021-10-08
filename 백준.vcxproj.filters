@@ -153,5 +153,8 @@
     <ClCompile Include="별찍기_9.cpp">
       <Filter>소스 파일\구현</Filter>
     </ClCompile>
+    <ClCompile Include="셀프 넘버(4673).cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
