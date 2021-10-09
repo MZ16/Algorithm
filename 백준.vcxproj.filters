@@ -156,5 +156,8 @@
     <ClCompile Include="셀프 넘버(4673).cpp">
       <Filter>소스 파일\구현</Filter>
     </ClCompile>
+    <ClCompile Include="덩치(7568).cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
