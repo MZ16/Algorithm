@@ -58,6 +58,9 @@
     <Filter Include="소스 파일\덱">
       <UniqueIdentifier>{8be485a5-8abc-4b5c-b8a8-5dbc1bddd565}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\트리">
+      <UniqueIdentifier>{3800a67f-ba89-4b4b-9f09-1375a9b8ae5c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="별찍기_2.cpp">
@@ -167,6 +170,9 @@
     </ClCompile>
     <ClCompile Include="방번호(1475).cpp">
       <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="트리순회(1991).cpp">
+      <Filter>소스 파일\트리</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
