@@ -40,7 +40,6 @@ void InordefTraverse(BTreeNode* bt) { //중위 순회 ∧
 	printf("%c", bt->data);
 	InordefTraverse(bt->right);
 }
-
 void PreordefTraverse(BTreeNode* bt) { // 전위 순회 ＜
 	if (bt == NULL) return;
 
@@ -48,7 +47,6 @@ void PreordefTraverse(BTreeNode* bt) { // 전위 순회 ＜
 	PreordefTraverse(bt->left);
 	PreordefTraverse(bt->right);
 }
-
 void PostorderTraverse(BTreeNode* bt) { // 후위 순회 ＞
 	if (bt == NULL) return;
 
