@@ -61,6 +61,9 @@
     <Filter Include="소스 파일\트리">
       <UniqueIdentifier>{3800a67f-ba89-4b4b-9f09-1375a9b8ae5c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\우선순위큐">
+      <UniqueIdentifier>{1fa97924-225c-4dd4-a95d-d8292e4d752e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="별찍기_2.cpp">
@@ -188,6 +191,9 @@
     </ClCompile>
     <ClCompile Include="일곱 난쟁이.cpp">
       <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
+    <ClCompile Include="최소힙(1927).cpp">
+      <Filter>소스 파일\우선순위큐</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
