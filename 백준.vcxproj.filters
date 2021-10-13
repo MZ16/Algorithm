@@ -195,5 +195,8 @@
     <ClCompile Include="최소힙(1927).cpp">
       <Filter>소스 파일\우선순위큐</Filter>
     </ClCompile>
+    <ClCompile Include="최대힙(11279).cpp">
+      <Filter>소스 파일\우선순위큐</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

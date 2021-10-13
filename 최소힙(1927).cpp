@@ -38,11 +38,11 @@ int GetParentIDX(int idx) {
 }
 
 int GetHiPriChildIDX(Heap* ph, int idx) {
-	//자식이 없으면
+	
 	if (GetLChildIDX(idx) > ph->numOfData) return 0;
-	//자식이 하나면
+	
 	else if (ph->numOfData == GetLChildIDX(idx)) return GetLChildIDX(idx);
-	//자식이 둘이면
+	
 	else {
 		if (ph->heapArr[GetLChildIDX(idx)].pr > ph->heapArr[GetRChildIDX(idx)].pr)
 			return GetRChildIDX(idx);
