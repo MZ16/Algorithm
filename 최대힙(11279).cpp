@@ -4,7 +4,7 @@
 #define TRUE 1
 #define FALSE 0
 #define HEAP_LEN 100001
-//.
+
 typedef int HData;
 typedef int Priority;
 
