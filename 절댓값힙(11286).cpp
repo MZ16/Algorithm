@@ -44,10 +44,18 @@ int GetHiPriChildIDX(Heap* ph, int idx) {
 	else if (ph->numOfData == GetLChildIDX(idx)) return GetLChildIDX(idx);
 
 	else {
-		if (ph->heapArr[GetLChildIDX(idx)].pr > ph->heapArr[GetRChildIDX(idx)].pr)
+		if (ph->heapArr[GetLChildIDX(idx)].pr > ph->heapArr[GetRChildIDX(idx)].pr) {
+			//if(GetLChildIDX(idx)>GetRChildIDX(idx))
+			printf("GetR : %d\n", GetRChildIDX(idx));
+			printf("ph->heapArr[GetR].pr : %lf\n", ph->heapArr[GetRChildIDX(idx)].pr);
 			return GetRChildIDX(idx);
-		else
+		}
+		
+		else {
+			printf("GetL : %d\n", GetLChildIDX(idx));
+			printf("ph->heapArr[GetL].pr : %lf\n", ph->heapArr[GetLChildIDX(idx)].pr);
 			return GetLChildIDX(idx);
+		}
 	}
 }
 

@@ -64,6 +64,9 @@
     <Filter Include="소스 파일\우선순위큐">
       <UniqueIdentifier>{1fa97924-225c-4dd4-a95d-d8292e4d752e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\정렬">
+      <UniqueIdentifier>{d0a25615-420f-473d-b9bd-65a2b5964630}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="별찍기_2.cpp">
@@ -200,6 +203,9 @@
     </ClCompile>
     <ClCompile Include="절댓값힙(11286).cpp">
       <Filter>소스 파일\우선순위큐</Filter>
+    </ClCompile>
+    <ClCompile Include="수 정렬하기(2758)cpp.cpp">
+      <Filter>소스 파일\정렬</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
