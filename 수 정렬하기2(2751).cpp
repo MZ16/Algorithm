@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+
 void Merge(int arr[], int left, int mid, int right) {
 	int arr2[1000000];
 	int i = left, j = mid+1, k=0;
@@ -25,12 +25,12 @@ void MergeSort(int arr[], int left, int right) {
 		Merge(arr, left, mid, right);
 	}
 }
-*/
+
 int main() {
 	int arr[1000000];
 	int N;
 	scanf("%d", &N);
 	for (int i = 0; i < N; i++)scanf("%d", &arr[i]);
-	//MergeSort(arr, 0, N - 1);
+	MergeSort(arr, 0, N - 1);
 	for (int i = 0; i < N; i++)printf("%d ", arr[i]);
 }
