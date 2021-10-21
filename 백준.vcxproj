@@ -224,6 +224,7 @@
     <ClCompile Include="수 정렬하기2(2751).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="수 정렬하기3(10989).cpp" />
     <ClCompile Include="스택(10828).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
