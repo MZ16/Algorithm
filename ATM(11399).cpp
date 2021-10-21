@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-
+/* 정렬 후 피보나치 수열의 합을 출력*/
 
 void Merge(int list[], int left, int mid, int right) {
 	int i, j, k;
