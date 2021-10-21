@@ -222,5 +222,8 @@
     <ClCompile Include="ATM(11399).cpp">
       <Filter>소스 파일\정렬</Filter>
     </ClCompile>
+    <ClCompile Include="소트인사이드(1427).cpp">
+      <Filter>소스 파일\정렬</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
