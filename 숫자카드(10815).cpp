@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define TRUE 1
-#define FALSE 0
+//정렬 후 이분탐색
 int arr[500001];
 int N, M;
 void Binary(int i, int key) {
