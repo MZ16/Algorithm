@@ -234,5 +234,11 @@
     <ClCompile Include="숫자카드(10815).cpp">
       <Filter>소스 파일\정렬</Filter>
     </ClCompile>
+    <ClCompile Include="숫자카드2(10816).cpp">
+      <Filter>소스 파일\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="듣보잡(1764).cpp">
+      <Filter>소스 파일\정렬</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
