@@ -246,5 +246,8 @@
     <ClCompile Include="사탕게임(3085).cpp">
       <Filter>소스 파일\브루트포스</Filter>
     </ClCompile>
+    <ClCompile Include="날짜계산(1478).cpp">
+      <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
