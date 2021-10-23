@@ -17,3 +17,6 @@ int main() {
 	printf("%d", result);
 	return 0;
 }
+/* 1. 입력된 수의 길이
+*  2. 길이에 해당되는 단위의 갯수
+*/
