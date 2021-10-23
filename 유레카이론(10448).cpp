@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+// 최대 3개의 삼각형 합까지 가능
 int main() {
 	int N, b = 0;
 	int val = 2;
