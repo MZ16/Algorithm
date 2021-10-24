@@ -264,5 +264,8 @@
     <ClCompile Include="N찍기(2741).cpp">
       <Filter>소스 파일\구현</Filter>
     </ClCompile>
+    <ClCompile Include="기찍N(2742).cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
