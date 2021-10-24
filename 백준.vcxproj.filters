@@ -276,5 +276,11 @@
     <ClCompile Include="윤년(2753).cpp">
       <Filter>소스 파일\구현</Filter>
     </ClCompile>
+    <ClCompile Include="A+B(10950).cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="더하기사이클(1110).cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
