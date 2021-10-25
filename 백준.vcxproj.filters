@@ -261,5 +261,14 @@
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일\브루트포스</Filter>
     </ClCompile>
+    <ClCompile Include="소스2.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="연습.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="이진검색트리(5639).cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
