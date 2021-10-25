@@ -303,5 +303,8 @@
     <ClCompile Include="소수 찾기(1978).cpp">
       <Filter>소스 파일\수학</Filter>
     </ClCompile>
+    <ClCompile Include="팩토리얼 0의개수(1676).cpp">
+      <Filter>소스 파일\수학</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
