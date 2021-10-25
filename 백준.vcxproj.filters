@@ -300,5 +300,8 @@
     <ClCompile Include="평균(1546).cpp">
       <Filter>소스 파일\수학</Filter>
     </ClCompile>
+    <ClCompile Include="소수 찾기(1978).cpp">
+      <Filter>소스 파일\수학</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
