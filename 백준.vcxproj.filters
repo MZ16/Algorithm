@@ -270,5 +270,35 @@
     <ClCompile Include="이진검색트리(5639).cpp">
       <Filter>소스 파일\트리</Filter>
     </ClCompile>
+    <ClCompile Include="윤년(2753).cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="A+B(10950).cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="N찍기(2741).cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="구구단(2739).cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="기찍N(2742).cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="더하기사이클(1110).cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="시험 성적%289498%29.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="설탕배달.cpp">
+      <Filter>소스 파일\수학</Filter>
+    </ClCompile>
+    <ClCompile Include="평균(1546).cpp">
+      <Filter>소스 파일\수학</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
