@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+char str[1000001];
+int main() {
+
+	int arr[26] = { 0, }; int max = 0;
+	int cnt = 0,idx;
+	scanf("%s", &str);
+	
+	for (int i = 0; str[i]!=NULL; i++) {
+		if (str[i] >= 97 && str[i] < 123)str[i] -= 32;
+		arr[str[i]-65] += 1;
+	}
+	
+	for (int i = 0; i < 26; i++) {
+		if (max < arr[i])max = arr[i];
+	}
+	for (int i = 0; i < 26; i++) {
+		if (max == arr[i]) {
+			cnt++;
+			idx = i;
+		}
+	}
+	if (cnt == 1)printf("%c", idx+65);
+	else printf("?");
+	
+
+	return 0;
+}
