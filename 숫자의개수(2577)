@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <ctype.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main() {
+	int A, B, C;
+	scanf("%d %d %d", &A, &B, &C);
+	int MUL = A * B * C;
+	int arr[10] = { 0, };
+	//_itoa(MUL, str, 10); 백준 컴파일 에러남
+	for (int i = 0; MUL>0; i++) {
+		int val = MUL % 10;
+		MUL /= 10;
+		arr[val]++;
+		
+	}
+	for (int i = 0; i < 10; i++)printf("%d\n",arr[i]);
+	return 0;
+}
