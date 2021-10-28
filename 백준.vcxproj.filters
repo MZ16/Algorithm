@@ -321,5 +321,8 @@
     <ClCompile Include="영화감독 숌(1436).cpp">
       <Filter>소스 파일\브루트포스</Filter>
     </ClCompile>
+    <ClCompile Include="랜선 자르기(1654).cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
