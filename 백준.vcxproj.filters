@@ -309,5 +309,8 @@
     <ClCompile Include="숫자의 합.cpp">
       <Filter>소스 파일\수학</Filter>
     </ClCompile>
+    <ClCompile Include="체스판 다시칠하기(1018).cpp">
+      <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
