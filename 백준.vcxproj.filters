@@ -330,5 +330,8 @@
     <ClCompile Include="수 찾기(1920).cpp">
       <Filter>소스 파일\이분 탐색</Filter>
     </ClCompile>
+    <ClCompile Include="소수 구하기(1929).cpp">
+      <Filter>소스 파일\수학</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
