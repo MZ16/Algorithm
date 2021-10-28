@@ -318,5 +318,8 @@
     <ClCompile Include="팰린드롬수(1259).cpp">
       <Filter>소스 파일\수학</Filter>
     </ClCompile>
+    <ClCompile Include="영화감독 숌(1436).cpp">
+      <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
