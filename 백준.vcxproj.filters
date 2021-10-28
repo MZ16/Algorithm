@@ -312,5 +312,8 @@
     <ClCompile Include="체스판 다시칠하기(1018).cpp">
       <Filter>소스 파일\브루트포스</Filter>
     </ClCompile>
+    <ClCompile Include="직사각형에서 탈출(1085).cpp">
+      <Filter>소스 파일\수학</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
