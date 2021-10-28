@@ -324,5 +324,11 @@
     <ClCompile Include="랜선 자르기(1654).cpp">
       <Filter>소스 파일\이분 탐색</Filter>
     </ClCompile>
+    <ClCompile Include="스택 수열(1874).cpp">
+      <Filter>소스 파일\스택</Filter>
+    </ClCompile>
+    <ClCompile Include="수 찾기(1920).cpp">
+      <Filter>소스 파일\이분 탐색</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
