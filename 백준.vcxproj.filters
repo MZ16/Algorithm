@@ -315,5 +315,8 @@
     <ClCompile Include="직사각형에서 탈출(1085).cpp">
       <Filter>소스 파일\수학</Filter>
     </ClCompile>
+    <ClCompile Include="팰린드롬수(1259).cpp">
+      <Filter>소스 파일\수학</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
