@@ -345,5 +345,8 @@
     <ClCompile Include="최대공약수의 최소공배수(2609).cpp">
       <Filter>소스 파일\수학</Filter>
     </ClCompile>
+    <ClCompile Include="부녀회장이 될테야%282775%29.cpp">
+      <Filter>소스 파일\수학</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
