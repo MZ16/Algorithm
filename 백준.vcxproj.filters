@@ -357,5 +357,8 @@
     <ClCompile Include="직각삼각형(4153).cpp">
       <Filter>소스 파일\수학</Filter>
     </ClCompile>
+    <ClCompile Include="균형잡힌 세상(4949).cpp">
+      <Filter>소스 파일\스택</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
