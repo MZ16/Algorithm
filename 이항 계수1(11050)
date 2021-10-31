@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int Fact(int n) {
+	int ans = 1;
+	for (int i = n; i > 0; i--)ans *= i;
+	return ans;
+}
+
+int nCk(int n, int k) {
+	static int arr[11][11];
+	if (arr[n][k] > 0) return arr[n][k];
+	else if (k == 0 || k == n) return arr[n][k] = 1;
+	else if ((0 < k) && (k < n)) return arr[n][k] = nCk(n - 1, k - 1) + nCk(n - 1, k);
+	else return 0;
+}
+
+int main() {
+	int n, k;
+	scanf("%d %d", &n, &k);
+	printf("%d", nCk(n, k));
+	return 0;
+}
