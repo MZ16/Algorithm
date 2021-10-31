@@ -3,13 +3,14 @@
 #include <string.h>
 #include <math.h>
 #include<ctype.h>
+#define mod 1234567891
 
 int main() {
 	//printf("%d", 'a' - ('a'-1));
 	
 	int TC;
-	int h = 31, i = 0;
-	int sum = 0;
+	int i = 0;
+	long long sum = 0,r=1;
 	char str[51],ch='0';
 	scanf("%d", &TC);
 	getchar();
@@ -20,9 +21,9 @@ int main() {
 	}	
 		
 	for (int i = 0; i < TC; i++) {
-		int a = (str[i] - '0') * pow(h, i);;
-		sum += (str[i] - '0')*pow(h, i);
+		sum +=  ((str[i] - '0')*r)%mod;
+		r = (r * 31) % mod;
 	}
-	printf("%d", sum);
+	printf("%lld", sum);
 	return 0;
 }

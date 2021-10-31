@@ -366,5 +366,8 @@
     <ClCompile Include="Hashing(15829).cpp">
       <Filter>소스 파일\정렬</Filter>
     </ClCompile>
+    <ClCompile Include="마인크래프트(18111).cpp">
+      <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
