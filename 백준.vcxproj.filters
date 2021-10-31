@@ -360,5 +360,11 @@
     <ClCompile Include="균형잡힌 세상(4949).cpp">
       <Filter>소스 파일\스택</Filter>
     </ClCompile>
+    <ClCompile Include="좌표정렬2(11651).cpp">
+      <Filter>소스 파일\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="Hashing(15829).cpp">
+      <Filter>소스 파일\정렬</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
