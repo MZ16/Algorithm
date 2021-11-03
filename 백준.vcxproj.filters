@@ -381,5 +381,8 @@
     <ClCompile Include="회의실 배정(1931).cpp">
       <Filter>소스 파일\그리디</Filter>
     </ClCompile>
+    <ClCompile Include="보물(1026).cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
