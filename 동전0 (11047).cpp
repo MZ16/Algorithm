@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-// °¡Àå Å« ¼öºÎÅÍ
+// Â°Â¡Ã€Ã¥ Ã…Â« Â¼Ã¶ÂºÃÃ…Ã
 int N, K;
 int arr[11];
 int main() {
