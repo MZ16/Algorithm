@@ -390,5 +390,8 @@
     <ClCompile Include="잃어버린 괄호(1541).cpp">
       <Filter>소스 파일\그리디</Filter>
     </ClCompile>
+    <ClCompile Include="거스름돈(5585).cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
