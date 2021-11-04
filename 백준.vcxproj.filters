@@ -402,11 +402,17 @@
     <ClCompile Include="피보나치.cpp">
       <Filter>소스 파일\DP</Filter>
     </ClCompile>
-    <ClCompile Include="숨바꼭질(1697).cpp">
+    <ClCompile Include="%28미완성%29숨바꼭질%281697%29.cpp">
       <Filter>소스 파일\BFS</Filter>
     </ClCompile>
     <ClCompile Include="소스3.cpp">
       <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="%28미완성%29종이의 개수%281780%29.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="전자레인지(10162).cpp">
+      <Filter>소스 파일\그리디</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
