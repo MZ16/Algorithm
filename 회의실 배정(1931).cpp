@@ -54,10 +54,7 @@ int main() {
 		scanf("%d %d", &list[i].x, &list[i].y);
 	}
 	mergeSort(list, 0, TC - 1);
-	/*for (int i = 0; i < TC; i++) {
-		printf("%d %d\n", list[i].x, list[i].y);
-	}*/
-	
+
 	for (int i = 0; i < TC; i++) {
 		if (i == 0) {
 			cnt++;
