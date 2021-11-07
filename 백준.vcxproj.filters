@@ -414,5 +414,11 @@
     <ClCompile Include="전자레인지(10162).cpp">
       <Filter>소스 파일\그리디</Filter>
     </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="쿼드트리(1992).cpp">
+      <Filter>소스 파일\DFS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
