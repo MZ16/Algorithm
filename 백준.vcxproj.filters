@@ -423,5 +423,8 @@
     <ClCompile Include="미로탐색(2178).cpp">
       <Filter>소스 파일\BFS</Filter>
     </ClCompile>
+    <ClCompile Include="바이러스(2606).cpp">
+      <Filter>소스 파일\DFS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
