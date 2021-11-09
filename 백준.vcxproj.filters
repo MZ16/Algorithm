@@ -441,5 +441,8 @@
     <ClCompile Include="숫자야구(2503).cpp">
       <Filter>소스 파일\브루트포스</Filter>
     </ClCompile>
+    <ClCompile Include="토마토(7569).cpp">
+      <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
