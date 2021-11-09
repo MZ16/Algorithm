@@ -408,9 +408,6 @@
     <ClCompile Include="소스3.cpp">
       <Filter>소스 파일\BFS</Filter>
     </ClCompile>
-    <ClCompile Include="%28미완성%29종이의 개수%281780%29.cpp">
-      <Filter>소스 파일\구현</Filter>
-    </ClCompile>
     <ClCompile Include="전자레인지(10162).cpp">
       <Filter>소스 파일\그리디</Filter>
     </ClCompile>
@@ -440,6 +437,9 @@
     </ClCompile>
     <ClCompile Include="IOIOI(5525).cpp">
       <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자야구(2503).cpp">
+      <Filter>소스 파일\브루트포스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
