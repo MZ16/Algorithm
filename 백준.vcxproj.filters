@@ -67,6 +67,9 @@
     <Filter Include="소스 파일\정렬">
       <UniqueIdentifier>{d0a25615-420f-473d-b9bd-65a2b5964630}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\백트레킹">
+      <UniqueIdentifier>{bf781ee9-0435-4d13-b01d-a832322a43a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="별찍기_2.cpp">
@@ -443,6 +446,12 @@
     </ClCompile>
     <ClCompile Include="토마토(7569).cpp">
       <Filter>소스 파일\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="N과M_1(15649).cpp">
+      <Filter>소스 파일\백트레킹</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
