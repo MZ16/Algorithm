@@ -471,5 +471,8 @@
     <ClCompile Include="N과M_6(15655).cpp">
       <Filter>소스 파일\백트레킹</Filter>
     </ClCompile>
+    <ClCompile Include="N과M_7(15656).cpp">
+      <Filter>소스 파일\백트레킹</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
