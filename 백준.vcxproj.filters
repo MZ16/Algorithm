@@ -477,5 +477,17 @@
     <ClCompile Include="N과M_8(15657).cpp">
       <Filter>소스 파일\백트레킹</Filter>
     </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스11.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="OX퀴즈(8958).cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
