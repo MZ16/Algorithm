@@ -489,5 +489,8 @@
     <ClCompile Include="OX퀴즈(8958).cpp">
       <Filter>소스 파일\구현</Filter>
     </ClCompile>
+    <ClCompile Include="정수N개의 합(15596).cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
