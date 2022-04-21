@@ -1,13 +1,15 @@
-#include <stdio.h>
-//65~90
+#include <iostream> 
+using namespace std; 
 
-int main() {
-	int arr[] = { 3,3,3,4,4,4,5,5,5,6,6,6,7,7,7,8,8,8,8,9,9,9,10,10,10 };
-	char str[16];
-	int sum = 0;
-	scanf("%s", &str);
-	for (int i = 0; str[i] != '\0'; i++) sum += arr[str[i] - 'A'];
-	printf("%d", sum);
+int total=0; 
+string s; 
 
+int main() { 
+	cin >> s; 
+	for(int i=0;i<s.size();i++) { 
+		total+=((int)s[i]-65)/3 + 3; 
+		if(s[i] == 'S' ||s[i] == 'V' ||s[i] == 'Y' ||s[i] == 'Z' ) total--; 
+	} 
+	cout << total; 
 	return 0;
 }
