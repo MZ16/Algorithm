@@ -519,5 +519,8 @@
     <ClCompile Include="2 X n타일링(11726).cpp">
       <Filter>소스 파일\DP</Filter>
     </ClCompile>
+    <ClCompile Include="퇴사(14501)cpp.cpp">
+      <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
