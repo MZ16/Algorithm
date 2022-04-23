@@ -522,5 +522,8 @@
     <ClCompile Include="퇴사(14501)cpp.cpp">
       <Filter>소스 파일\브루트포스</Filter>
     </ClCompile>
+    <ClCompile Include="사분면 고르기.cpp">
+      <Filter>소스 파일\수학</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
