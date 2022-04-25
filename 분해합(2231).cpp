@@ -5,7 +5,7 @@ int main() {
 	int sum = 0, num;
 	scanf("%d", &N);
 	tmp = N;
-	while (tmp) {
+	while (tmp) { 
 		tmp /= 10;
 		cnt++;
 	}
