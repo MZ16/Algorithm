@@ -552,5 +552,11 @@
     <ClCompile Include="주유소(13305).cpp">
       <Filter>소스 파일\그리디</Filter>
     </ClCompile>
+    <ClCompile Include="testFile.cpp">
+      <Filter>소스 파일\백트레킹</Filter>
+    </ClCompile>
+    <ClCompile Include="스타트와 링크(14889).cpp">
+      <Filter>소스 파일\백트레킹</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
