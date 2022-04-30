@@ -302,7 +302,10 @@
     <ClCompile Include="숫자야구(2503).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="스타트와 링크(14889).cpp" />
+    <ClCompile Include="스위치켜고끄기(1244).cpp" />
+    <ClCompile Include="스타트와 링크(14889).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="안전영역(2468).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

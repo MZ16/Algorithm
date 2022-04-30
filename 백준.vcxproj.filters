@@ -70,6 +70,9 @@
     <Filter Include="소스 파일\백트레킹">
       <UniqueIdentifier>{bf781ee9-0435-4d13-b01d-a832322a43a0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\시뮬레이션">
+      <UniqueIdentifier>{44dbc7ef-0fe7-4cf4-b08d-b01a1ee3ee0d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="별찍기_2.cpp">
@@ -557,6 +560,9 @@
     </ClCompile>
     <ClCompile Include="스타트와 링크(14889).cpp">
       <Filter>소스 파일\백트레킹</Filter>
+    </ClCompile>
+    <ClCompile Include="스위치켜고끄기(1244).cpp">
+      <Filter>소스 파일\시뮬레이션</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
