@@ -564,5 +564,8 @@
     <ClCompile Include="스위치켜고끄기(1244).cpp">
       <Filter>소스 파일\시뮬레이션</Filter>
     </ClCompile>
+    <ClCompile Include="나무 조각(2947).cpp">
+      <Filter>소스 파일\시뮬레이션</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
