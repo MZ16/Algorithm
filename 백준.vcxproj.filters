@@ -567,5 +567,8 @@
     <ClCompile Include="나무 조각(2947).cpp">
       <Filter>소스 파일\시뮬레이션</Filter>
     </ClCompile>
+    <ClCompile Include="나이순 정랼(10814).cpp">
+      <Filter>소스 파일\정렬</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
