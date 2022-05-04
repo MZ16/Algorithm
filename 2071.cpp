@@ -12,7 +12,7 @@ int main() {
 		for (int j = 0; j < 10; j++) {
 			scanf("%d", &arr[j]);
 			sum += arr[j];
-		}double ans = (double)sum / 10;
+		}double ans = (double)sum / 10; // ¹Ý¿Ã¸²
 		printf("#%d %d\n", i, (int)(ans+0.5));
 	}
 	return 0;
