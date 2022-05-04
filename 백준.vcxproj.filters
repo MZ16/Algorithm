@@ -573,5 +573,11 @@
     <ClCompile Include="크로아티아알파벳(2941).cpp">
       <Filter>소스 파일\구현</Filter>
     </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="연결 요소의합(11724).cpp">
+      <Filter>소스 파일\DFS</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
