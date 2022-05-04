@@ -612,9 +612,6 @@
     <ClCompile Include="1545.cpp">
       <Filter>소스 파일\SWEA</Filter>
     </ClCompile>
-    <ClCompile Include="유레카이론(10448).cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="1859.cpp">
       <Filter>소스 파일\SWEA</Filter>
     </ClCompile>
@@ -623,6 +620,12 @@
     </ClCompile>
     <ClCompile Include="2007.cpp">
       <Filter>소스 파일\SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2005.cpp">
+      <Filter>소스 파일\SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일\백준</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
