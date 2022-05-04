@@ -615,5 +615,8 @@
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1859.cpp">
+      <Filter>소스 파일\SWEA</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
