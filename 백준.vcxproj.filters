@@ -603,5 +603,11 @@
     <ClCompile Include="2058.cpp">
       <Filter>소스 파일\SWEA</Filter>
     </ClCompile>
+    <ClCompile Include="2050.cpp">
+      <Filter>소스 파일\SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="2019.cpp">
+      <Filter>소스 파일\SWEA</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
