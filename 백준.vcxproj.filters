@@ -639,5 +639,22 @@
     <ClCompile Include="집합(11723).cpp">
       <Filter>소스 파일\백준\구현</Filter>
     </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex).cpp">
+      <Filter>소스 파일\SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2001.cpp">
+      <Filter>소스 파일\SWEA</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SWEA.text">
+      <Filter>소스 파일\SWEA</Filter>
+    </None>
   </ItemGroup>
 </Project>
