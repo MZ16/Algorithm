@@ -669,6 +669,12 @@
     <ClCompile Include="1989.cpp">
       <Filter>소스 파일\SWEA\D2</Filter>
     </ClCompile>
+    <ClCompile Include="1986.cpp">
+      <Filter>소스 파일\SWEA\D2</Filter>
+    </ClCompile>
+    <ClCompile Include="1983.cpp">
+      <Filter>소스 파일\SWEA\D2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SWEA.text">
