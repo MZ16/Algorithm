@@ -79,6 +79,15 @@
     <Filter Include="소스 파일\백준\트리">
       <UniqueIdentifier>{3800a67f-ba89-4b4b-9f09-1375a9b8ae5c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\SWEA\D1">
+      <UniqueIdentifier>{e90aa04d-6651-4c24-8e0c-ea72eef4f609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SWEA\D2">
+      <UniqueIdentifier>{b549a6cf-94fe-47aa-9730-695ea41d95c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SWEA\D3">
+      <UniqueIdentifier>{940b0765-f579-41f5-9360-df73f8ab6b4b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="별찍기_2.cpp">
@@ -588,42 +597,6 @@
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일\백준</Filter>
     </ClCompile>
-    <ClCompile Include="2072.cpp">
-      <Filter>소스 파일\SWEA</Filter>
-    </ClCompile>
-    <ClCompile Include="2071.cpp">
-      <Filter>소스 파일\SWEA</Filter>
-    </ClCompile>
-    <ClCompile Include="2070.cpp">
-      <Filter>소스 파일\SWEA</Filter>
-    </ClCompile>
-    <ClCompile Include="2063.cpp">
-      <Filter>소스 파일\SWEA</Filter>
-    </ClCompile>
-    <ClCompile Include="2058.cpp">
-      <Filter>소스 파일\SWEA</Filter>
-    </ClCompile>
-    <ClCompile Include="2050.cpp">
-      <Filter>소스 파일\SWEA</Filter>
-    </ClCompile>
-    <ClCompile Include="2019.cpp">
-      <Filter>소스 파일\SWEA</Filter>
-    </ClCompile>
-    <ClCompile Include="1545.cpp">
-      <Filter>소스 파일\SWEA</Filter>
-    </ClCompile>
-    <ClCompile Include="1859.cpp">
-      <Filter>소스 파일\SWEA</Filter>
-    </ClCompile>
-    <ClCompile Include="1926.cpp">
-      <Filter>소스 파일\SWEA</Filter>
-    </ClCompile>
-    <ClCompile Include="2007.cpp">
-      <Filter>소스 파일\SWEA</Filter>
-    </ClCompile>
-    <ClCompile Include="2005.cpp">
-      <Filter>소스 파일\SWEA</Filter>
-    </ClCompile>
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일\백준</Filter>
     </ClCompile>
@@ -648,14 +621,53 @@
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2001.cpp">
-      <Filter>소스 파일\SWEA</Filter>
-    </ClCompile>
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2001.cpp">
+      <Filter>소스 파일\SWEA\D2</Filter>
+    </ClCompile>
+    <ClCompile Include="2005.cpp">
+      <Filter>소스 파일\SWEA\D2</Filter>
+    </ClCompile>
+    <ClCompile Include="1859.cpp">
+      <Filter>소스 파일\SWEA\D2</Filter>
+    </ClCompile>
+    <ClCompile Include="1926.cpp">
+      <Filter>소스 파일\SWEA\D2</Filter>
+    </ClCompile>
+    <ClCompile Include="2007.cpp">
+      <Filter>소스 파일\SWEA\D2</Filter>
+    </ClCompile>
     <ClCompile Include="1984.cpp">
-      <Filter>소스 파일\SWEA</Filter>
+      <Filter>소스 파일\SWEA\D2</Filter>
+    </ClCompile>
+    <ClCompile Include="1545.cpp">
+      <Filter>소스 파일\SWEA\D1</Filter>
+    </ClCompile>
+    <ClCompile Include="2019.cpp">
+      <Filter>소스 파일\SWEA\D1</Filter>
+    </ClCompile>
+    <ClCompile Include="2050.cpp">
+      <Filter>소스 파일\SWEA\D1</Filter>
+    </ClCompile>
+    <ClCompile Include="2058.cpp">
+      <Filter>소스 파일\SWEA\D1</Filter>
+    </ClCompile>
+    <ClCompile Include="2063.cpp">
+      <Filter>소스 파일\SWEA\D1</Filter>
+    </ClCompile>
+    <ClCompile Include="2070.cpp">
+      <Filter>소스 파일\SWEA\D1</Filter>
+    </ClCompile>
+    <ClCompile Include="2071.cpp">
+      <Filter>소스 파일\SWEA\D1</Filter>
+    </ClCompile>
+    <ClCompile Include="2072.cpp">
+      <Filter>소스 파일\SWEA\D1</Filter>
+    </ClCompile>
+    <ClCompile Include="1989.cpp">
+      <Filter>소스 파일\SWEA\D2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
