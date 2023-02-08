@@ -88,6 +88,12 @@
     <Filter Include="소스 파일\SWEA\D3">
       <UniqueIdentifier>{940b0765-f579-41f5-9360-df73f8ab6b4b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\인프런">
+      <UniqueIdentifier>{c941cc6c-d66d-45bb-b6aa-cfd30e1c6228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\인프런\1">
+      <UniqueIdentifier>{630c2beb-9159-4c70-abed-68365ad2688c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="별찍기_2.cpp">
@@ -680,6 +686,75 @@
     </ClCompile>
     <ClCompile Include="1979.cpp">
       <Filter>소스 파일\SWEA\D2</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex.cpp">
+      <Filter>소스 파일\백준\브루트포스</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일\SWEA\D1</Filter>
+    </ClCompile>
+    <ClCompile Include="2056.cpp">
+      <Filter>소스 파일\SWEA\D1</Filter>
+    </ClCompile>
+    <ClCompile Include="2047.cpp">
+      <Filter>소스 파일\SWEA\D1</Filter>
+    </ClCompile>
+    <ClCompile Include="2043.cpp">
+      <Filter>소스 파일\SWEA\D1</Filter>
+    </ClCompile>
+    <ClCompile Include="2046.cpp">
+      <Filter>소스 파일\SWEA\D1</Filter>
+    </ClCompile>
+    <ClCompile Include="2029.cpp">
+      <Filter>소스 파일\SWEA\D1</Filter>
+    </ClCompile>
+    <ClCompile Include="2027.cpp">
+      <Filter>소스 파일\SWEA\D1</Filter>
+    </ClCompile>
+    <ClCompile Include="2025.cpp">
+      <Filter>소스 파일\SWEA\D1</Filter>
+    </ClCompile>
+    <ClCompile Include="1933.cpp">
+      <Filter>소스 파일\SWEA\D1</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7난쟁이.cpp">
+      <Filter>소스 파일\인프런\1</Filter>
+    </ClCompile>
+    <ClCompile Include="1159.cpp">
+      <Filter>소스 파일\인프런\1</Filter>
+    </ClCompile>
+    <ClCompile Include="2979.cpp">
+      <Filter>소스 파일\인프런\1</Filter>
+    </ClCompile>
+    <ClCompile Include="10988.cpp">
+      <Filter>소스 파일\인프런\1</Filter>
+    </ClCompile>
+    <ClCompile Include="알파벳개수.cpp">
+      <Filter>소스 파일\인프런\1</Filter>
+    </ClCompile>
+    <ClCompile Include="11655.cpp">
+      <Filter>소스 파일\인프런\1</Filter>
+    </ClCompile>
+    <ClCompile Include="9996.cpp">
+      <Filter>소스 파일\인프런\1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
