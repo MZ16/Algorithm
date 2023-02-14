@@ -759,8 +759,17 @@
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="prefix_sum.cpp">
+      <Filter>소스 파일\인프런\1</Filter>
+    </ClCompile>
     <ClCompile Include="2559.cpp">
-      <Filter>소스 파일\인프런</Filter>
+      <Filter>소스 파일\인프런\1</Filter>
+    </ClCompile>
+    <ClCompile Include="1620.cpp">
+      <Filter>소스 파일\인프런\1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
