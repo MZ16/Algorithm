@@ -783,6 +783,9 @@
     <ClCompile Include="3986.cpp">
       <Filter>소스 파일\인프런\1</Filter>
     </ClCompile>
+    <ClCompile Include="1629.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SWEA.text">
