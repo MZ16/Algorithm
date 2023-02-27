@@ -15,14 +15,15 @@ int main() {
 	while (cin >> N) {
 		int cnt = 1, ret = 1;
 		for(;;) {
-			if (cnt%N==0) { // !cnt, cnt==0의 조건은 틀렷습니다 나옴, else문에서 cnt %= N을 통해 0이 되지 않나..?
+			if (cnt%N==0) { // !cnt, cnt==0의 조건은 틀렷습니다 나옴, N이 1인경우 else문으로 들어가 ret이 2가 되어 처리됨
 				cout << ret << "\n";
 				break;
 			}
 			else {
 				ret++;
 				cnt = (cnt * 10) + 1;
-				cnt %= N;				
+				cnt %= N;
+				cout << "cnt : " << cnt << "\n";
 			}
 		}
 	}
