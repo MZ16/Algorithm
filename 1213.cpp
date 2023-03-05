@@ -29,7 +29,7 @@ int main() {
 			mid = (char)i;
 			cnt[i]--; // mid값을 빼주어 이후 짝수처리 때 한번에 처리하기 위함
 		}
-		// 짝수처리
+
 		if (flag == 2)break; // 홀수가 2개 이상이면 팰린드롬이 불가능
 
 		for (int j = 0; j < cnt[i]; j += 2) {
