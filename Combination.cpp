@@ -23,7 +23,7 @@ void combi(int start, vector <int> v) {
 	return;
 }
 
- 
+  
 int main() {
 	// 중첩 for문을 활용한 combination(조합), r의 갯수만큼 중첩해주면 된다.
 	
