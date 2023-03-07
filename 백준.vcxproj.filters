@@ -94,6 +94,9 @@
     <Filter Include="소스 파일\인프런\1">
       <UniqueIdentifier>{630c2beb-9159-4c70-abed-68365ad2688c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\인프런\1\algorithm">
+      <UniqueIdentifier>{96c772bd-4686-45cd-9871-daef7d526b60}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="별찍기_2.cpp">
@@ -762,9 +765,6 @@
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="prefix_sum.cpp">
-      <Filter>소스 파일\인프런\1</Filter>
-    </ClCompile>
     <ClCompile Include="2559.cpp">
       <Filter>소스 파일\인프런\1</Filter>
     </ClCompile>
@@ -804,11 +804,17 @@
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="permutation.cpp">
-      <Filter>소스 파일\인프런\1</Filter>
-    </ClCompile>
     <ClCompile Include="Combination.cpp">
-      <Filter>소스 파일\인프런\1</Filter>
+      <Filter>소스 파일\인프런\1\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="permutation.cpp">
+      <Filter>소스 파일\인프런\1\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="prefix_sum.cpp">
+      <Filter>소스 파일\인프런\1\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Split.cpp">
+      <Filter>소스 파일\인프런\1\algorithm</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
