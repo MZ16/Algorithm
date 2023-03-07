@@ -807,10 +807,19 @@
     <ClCompile Include="permutation.cpp">
       <Filter>소스 파일\인프런\1</Filter>
     </ClCompile>
+    <ClCompile Include="Combination.cpp">
+      <Filter>소스 파일\인프런\1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SWEA.text">
       <Filter>소스 파일\SWEA</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\바탕 화면\IT자료\인프런\C++ 알고리즘\알고리즘 교안.pdf">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\바탕 화면\IT자료\인프런\C++ 알고리즘\알고리즘 문제해설.pdf">
+      <Filter>소스 파일</Filter>
     </None>
   </ItemGroup>
 </Project>
