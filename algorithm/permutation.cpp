@@ -2,7 +2,7 @@
 using namespace std;
 
 vector<int> v;
-
+ 
 
 void make_permutation(int n, int r, int depth) {
 	//cout << "n : " << n << " r :" << r << " depth : " << depth << "\n";
@@ -27,14 +27,14 @@ int main() {
 	cin >> N;
 	for (int x, i = 0; i < N; i++) { cin >> x; v.push_back(x); }
 
-	// ÇÔ¼ö¸¦ ÀÌ¿ëÇÑ ¼ø¿­
+	// í•¨ìˆ˜ë¥¼ ì´ìš©í•œ ìˆœì—´
 	do {
 		for (auto i = v.begin(); i != v.end(); i++) cout << *i<<" ";
 		cout << "\n";
 	} while (next_permutation(v.begin(), v.end()));
 	cout << "\n\n";
 
-	// Àç±Í¸¦ ÀÌ¿ëÇÑ ¼ø¿­
+	// ì¬ê·€ë¥¼ ì´ìš©í•œ ìˆœì—´
 	make_permutation(N, N, 0);
 	return 0;
 }
