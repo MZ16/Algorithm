@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Á¶ÇÕ - ¼ø¼­»ó°ü¾øÀÌ »Ì´Â °æ¿ìÀÇ ¼ö
+// ì¡°í•© - ìˆœì„œìƒê´€ì—†ì´ ë½‘ëŠ” ê²½ìš°ì˜ ìˆ˜
 // nCr = n! / r!(n-r)!
 
 int a[5] = { 1,2,3,4,5 };
@@ -14,7 +14,7 @@ void combi(int start, vector <int> v) {
 		return;
 	}
 
-	for (int i = start + 1; i < n; i++) { // 0¹ø¤Š idx¸¦ push ÈÄ Àç±Í¿¡´Â ´ÙÀ½idx°ªÀ» ³Ñ°ÜÁÖ±â À§ÇØ (start=-1) + 1
+	for (int i = start + 1; i < n; i++) { // 0ë²ˆÂŠ idxë¥¼ push í›„ ì¬ê·€ì—ëŠ” ë‹¤ìŒidxê°’ì„ ë„˜ê²¨ì£¼ê¸° ìœ„í•´ (start=-1) + 1
 		v.push_back(a[i]);
 		combi(i, v);
 		v.pop_back();
@@ -23,12 +23,12 @@ void combi(int start, vector <int> v) {
 	return;
 }
 
-
+ 
 int main() {
-	// ÁßÃ¸ for¹®À» È°¿ëÇÑ combination(Á¶ÇÕ), rÀÇ °¹¼ö¸¸Å­ ÁßÃ¸ÇØÁÖ¸é µÈ´Ù.
+	// ì¤‘ì²© forë¬¸ì„ í™œìš©í•œ combination(ì¡°í•©), rì˜ ê°¯ìˆ˜ë§Œí¼ ì¤‘ì²©í•´ì£¼ë©´ ëœë‹¤.
 	
 	// 
-	// 5C3, ³»¸²Â÷¼ø
+	// 5C3, ë‚´ë¦¼ì°¨ìˆœ
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < i; j++) {
 			for (int k = 0; k < j; k++) {
@@ -37,7 +37,7 @@ int main() {
 		}
 	}cout << "\n";
 
-	// ¿À¸§Â÷¼ø
+	// ì˜¤ë¦„ì°¨ìˆœ
 	for (int i = 0; i < n; i++) {
 		for (int j = i+1; j < n; j++) {
 			for (int k = j+1; k < n; k++) {
@@ -46,7 +46,7 @@ int main() {
 		}
 	}cout << "\n";
 
-	// Àç±Í , r - Á¶ÇÕÇÒ °¹¼ö
+	// ì¬ê·€ , r - ì¡°í•©í•  ê°¯ìˆ˜
 	vector <int> v;
 	combi(-1, v);
 
