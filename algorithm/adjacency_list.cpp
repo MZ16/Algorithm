@@ -7,7 +7,7 @@ using namespace std;
 const int V = 10;
 vector <int> adj[V];
 bool visited[V];
-
+ 
 void dfs(int i) {
 	visited[i] = true;
 	cout << "정점 : "<<i<<"\n";
