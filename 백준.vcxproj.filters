@@ -828,6 +828,9 @@
     <ClCompile Include="adjacency_list.cpp">
       <Filter>소스 파일\인프런\1\algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="direction_vector.cpp">
+      <Filter>소스 파일\인프런\1\algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SWEA.text">
