@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// 1은 육지, 0은 바다이며 연결된 육지는 하나의 육지이다.
+// 입력 - 맵의 새로길이 N과 가로길이 M이 주어지고 1<=N,M<=100의 범위를 가진다.
+// 출력 - 육지의 수를 출력하라.
+
 const int V = 101;
 const int yx = 4;
 int dy[yx] = { -1,0,1,0 };
