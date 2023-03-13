@@ -97,6 +97,9 @@
     <Filter Include="소스 파일\인프런\1\algorithm">
       <UniqueIdentifier>{96c772bd-4686-45cd-9871-daef7d526b60}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\인프런\2">
+      <UniqueIdentifier>{9b1fb649-9335-4a0c-97a0-0e9ee8c8104f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="별찍기_2.cpp">
@@ -845,6 +848,12 @@
     </ClCompile>
     <ClCompile Include="Tree_traversal.cpp">
       <Filter>소스 파일\인프런\1\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2178.cpp">
+      <Filter>소스 파일\인프런\2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
