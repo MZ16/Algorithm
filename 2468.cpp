@@ -11,7 +11,6 @@ int visited[101][101];
 int ret;
 
 
-/* 73% */
 void dfs(int y, int x, int k) {
 	visited[y][x] = 1;
 	for (int i = 0; i < 4; i++) {
