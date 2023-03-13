@@ -9,6 +9,8 @@ int dy[4] = { -1,0,1,0 };
 int dx[4] = { 0,1,0,-1 };
 int cnt=1,ret;
 vector<int>v;
+
+// int형 함수로 ret+=dfs(); return ret 의 형태로 cnt를 표현할수도 있다.
 void dfs(int y, int x) {
 	visited[y][x] = 1;	
 	for (int i = 0; i < 4; i++) {
@@ -45,7 +47,7 @@ int main() {
 			if (!visited[i][j] && !adj[i][j]) {
 				ret++; dfs(i, j);
 				//cout << cnt << "\n";
-				v.push_back(cnt);
+				v.push_back(cnt); // int형 dfs라면 v.push_back(dfs(i,j)); 의 형태로 ret과 cnt를 모두 표현 가능
 				cnt = 1;
 			}
 		}
