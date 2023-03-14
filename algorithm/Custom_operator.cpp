@@ -12,7 +12,7 @@ using namespace std;
 *	v			- (first - 개수), (second - 숫자)		/	custom operator 인자
 * bool type
 */
-
+ 
 // 우선순위 
 // 1. 빈도 수
 // 2. 먼저 입력된 값(빈도 수가 같을경우 포함)
