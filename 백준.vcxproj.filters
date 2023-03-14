@@ -870,6 +870,9 @@
     <ClCompile Include="2828.cpp">
       <Filter>소스 파일\인프런\2</Filter>
     </ClCompile>
+    <ClCompile Include="2910.cpp">
+      <Filter>소스 파일\인프런\2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SWEA.text">
