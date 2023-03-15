@@ -8,7 +8,7 @@ using namespace std;
 
 */
 int main() {
-	int N;
+	int N; 
 	cin >> N;
 	for (int i = 1; i <= N; i++) {
 		string s;
