@@ -17,7 +17,7 @@ int main() {
 			if (s[cnt] == s[j])cnt++; // 첫번쨰 마디 이후 동일한 마디가 나온다면 계속 증가함
 			else cnt = 0;
 		}
-		printf("#%d %d\n", i, (int)s.size() - cnt);
+		printf("#%d %d\n", i, (int)s.size() - cnt); 
 	}
 
 }
