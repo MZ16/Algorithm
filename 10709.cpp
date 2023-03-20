@@ -8,7 +8,7 @@ using namespace std;
 int main() {
 	int N, M;
 	char c[102][102];	 
-	int ret[102][102];
+	int ret[102][102];  
 	memset(ret, -1, sizeof(ret));
 	cin >> N >> M;
 	
