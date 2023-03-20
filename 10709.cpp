@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
 	int N, M;
-	char c[102][102];	
+	char c[102][102];	 
 	int ret[102][102];
 	memset(ret, -1, sizeof(ret));
 	cin >> N >> M;
@@ -22,8 +22,8 @@ int main() {
 		int flag = 0;
 		int idx = 0;
 		for (int j = 0; j < M; j++) {
-			if (c[i][j] == 'c')flag = 1, ret[i][j]=0,idx=0;
-			else if (flag)idx++, ret[i][j] = idx;
+			if (c[i][j] == 'c')flag = 1, ret[i][j]=0,idx=0; // 구름이 이동 할 수 있음을 알리기 위해 flag=1 이후 모두 0으로 초기화
+			else if (flag)idx++, ret[i][j] = idx;	//'c'가 아니면서 구름이 이동 가능
 		}
 	}
 
