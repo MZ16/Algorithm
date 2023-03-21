@@ -13,5 +13,9 @@ int main() {
 	int N;
 	int arr[2][2][104]; // ∆¿,µÊ¡°,Ω√∞£
 
+	for () {
+
+	}
+
 	return 0;
 } 
