@@ -21,7 +21,7 @@ void func() { // zero erase
 		if (ret.size() && ret.front() == '0')ret.erase(ret.begin()); // 참조에러 방지를 위해 size도 같이
 		else break;
 	}
-	// 0으로만 구성된 경우
+	// 0으로만 구성된 경우 
 	if (ret.empty())ret = "0";
 	v.push_back(ret);
 	ret = "";
