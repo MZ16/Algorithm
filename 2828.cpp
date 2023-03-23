@@ -23,5 +23,5 @@ int main() {
 		}
 	}
 	cout << ret;
-	return 0;
+	return 0; 
 }
