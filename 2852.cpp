@@ -14,7 +14,7 @@ int main() {
 	int Atime=0, Btime=0;
 	int Ascore=0, Bscore=0;
 	int saveM, saveS;
-	cin >> N;
+	scanf("%d", &N);
 	for (int i = 0; i < N; i++) {
 		int team, min, second;
 		scanf("%d %2d:%2d", &team, &min, &second);
@@ -29,12 +29,13 @@ int main() {
 		saveM = min; saveS = second;
 		
 		if (i == N - 1) { // 3.
-			if (Ascore > Bscore) Atime = (48 * 60) - (saveM*60+saveS);
-			else if (Ascore < Bscore) Btime = (48 * 60) - (saveM * 60 + saveS);
+			if (Ascore > Bscore) Atime += ((48 * 60) - (saveM*60+saveS));
+			else if (Ascore < Bscore) Btime += ((48 * 60) - (saveM * 60 + saveS));
 		}
 	}
-	cout << Atime / 60 << ":" << Atime % 60<<"\n";
-	cout << Btime / 60 << ":" << Btime % 60 << "\n";
-
+	printf("%02d:%02d\n", Atime / 60, Atime % 60);
+	printf("%02d:%02d\n", Btime / 60, Btime % 60);
 	return 0;
 } 
+
+// 해당 문제에서 맞왜틀 - cin과 scanf를 혼용하여 쓰면 오답처리가 된다
