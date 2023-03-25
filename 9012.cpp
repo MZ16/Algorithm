@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// 괄호문제는 대체로 stack이다.
+// 대체로 괄호문제는 stack으로 처리한다.
 
 int main() {
 	int N;
@@ -16,7 +16,7 @@ int main() {
 			else if (s[j] == ')' && !v.empty())v.pop_back();
 			else flag = 1;
 		}
-		if (!flag&&v.empty())cout << "YES" << "\n";
+		if (!flag && v.empty())cout << "YES" << "\n";
 		else cout << "NO" << "\n";
 	}
 
