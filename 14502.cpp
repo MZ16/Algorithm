@@ -66,7 +66,7 @@ int main() {
 	return 0;
 }
 
-/*dfs
+/*dfs 
 	1. 기둥 세우기 - nCr, n! / r(n-r)!
 		- 입력 받을 때 기둥을 세울 수 있는 '0'의 위치를 pair vector에 저장
 		- 배열에 pair vector를 이용하여 기둥을 세운다('1'로 변경)
