@@ -18,7 +18,7 @@ void dfs(int y, int x) {
 		dfs(ny, nx);
 	}
 	return;
-}
+} 
 
 int ans() {
 	memset(visited, 0, sizeof(visited));
