@@ -28,13 +28,13 @@ int main() {
 		adj[tmp2].push_back(tmp1);
 	}
 
-	for (int i = 0; i < N; i++) {
+	for (int i = 0; i <= N; i++) {
 		memset(visited, 0, sizeof(visited));
 		dp[i] = dfs(i);
 		result = max(dp[i], result);
 	}
 
-	for (int i = 0; i < N; i++) 
+	for (int i = 0; i <= N; i++) 
 		if (result == dp[i])cout << i << " ";
 	
 
