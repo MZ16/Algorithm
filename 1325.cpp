@@ -37,6 +37,6 @@ int main() {
 	for (int i = 0; i <= N; i++) 
 		if (result == dp[i])cout << i << " ";
 	
-
+	 
 	return 0;
 }
