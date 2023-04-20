@@ -24,7 +24,7 @@ int main() {
 
 	for (int i = 0; i < N; i++)cout << ans[i] << " ";
 	return 0;
-}
+} 
 
 /* 
 - 보통 brute force의 경우 1억, 천만이하의 연산은 괜찮지만 해당 문제는 100만 * 100만으로 안된다.
