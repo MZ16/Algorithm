@@ -3,7 +3,7 @@ using namespace std;
 
 
 int dy[8] = {-1,0,1,0,1,1,-1,-1};
-int dx[8] = {0,1,0,-1,1,-1,1,-1};
+int dx[8] = {0,1,0,-1,1,-1,1,-1}; 
 int visited[52][52];
 int arr[52][52];
 int cnt,N,M;	//	N - X, M - Y
