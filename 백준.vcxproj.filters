@@ -100,6 +100,9 @@
     <Filter Include="소스 파일\인프런\2">
       <UniqueIdentifier>{9b1fb649-9335-4a0c-97a0-0e9ee8c8104f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\백준\report">
+      <UniqueIdentifier>{1ba27437-ae63-43d9-81bf-0ad2818677a8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="별찍기_2.cpp">
@@ -941,6 +944,15 @@
     </ClCompile>
     <ClCompile Include="1987.cpp">
       <Filter>소스 파일\인프런\2</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>소스 파일\인프런\2</Filter>
+    </ClCompile>
+    <ClCompile Include="10448.cpp">
+      <Filter>소스 파일\백준\report</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
