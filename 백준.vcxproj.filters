@@ -957,7 +957,7 @@
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2338.cpp">
+    <ClCompile Include="2338%28ex%29.cpp">
       <Filter>소스 파일\백준\report</Filter>
     </ClCompile>
     <ClCompile Include="2420.cpp">
@@ -965,6 +965,15 @@
     </ClCompile>
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1271.cpp">
+      <Filter>소스 파일\백준\report</Filter>
+    </ClCompile>
+    <ClCompile Include="4150.cpp">
+      <Filter>소스 파일\백준\report</Filter>
+    </ClCompile>
+    <ClCompile Include="2338.cpp">
+      <Filter>소스 파일\백준\report</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
