@@ -5,7 +5,6 @@ string removeLeadingZeros(string num);
 string add(string a, string b);
 string subtract(string a, string b);
 string multiply(string a, string b);
-//string divide(string a, string b);
 
 
 int main() {
@@ -16,14 +15,13 @@ int main() {
     cout << add(a, b) << "\n";
     cout << subtract(a, b) << "\n";
     cout << multiply(a, b) << "\n";
-    //cout << divide(a, b) << "\n";
     return 0;
 }
 
 
 string removeLeadingZeros(string num) { // '0'제거
     int flag = 0;
-    if (num[0] == '-')flag = 1, num.erase(num.begin());
+    if (num[0] == '-')flag = 1, num.erase(num.begin()); // '-' 확인
     int i = 0;
     while (i < num.size() && num[i] == '0') {
         i++;
