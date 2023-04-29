@@ -4,7 +4,6 @@ using namespace std;
 string removeLeadingZeros(string num);
 string add(string a, string b);
 string subtract(string a, string b);
-string multiply(string a, string b);
 
 
 int main() {
@@ -13,15 +12,14 @@ int main() {
     string a, b;
     cin >> a >> b;
     cout << add(a, b) << "\n";
-    cout << subtract(a, b) << "\n";
-    cout << multiply(a, b) << "\n";
+
     return 0;
 }
 
 
 string removeLeadingZeros(string num) { // '0'제거
     int flag = 0;
-    if (num[0] == '-')flag = 1, num.erase(num.begin()); // '-' 확인
+    if (num[0] == '-')flag = 1, num.erase(num.begin());
     int i = 0;
     while (i < num.size() && num[i] == '0') {
         i++;
@@ -33,7 +31,7 @@ string removeLeadingZeros(string num) { // '0'제거
     else return num.substr(i);
 }
 
-// 
+
 string add(string a, string b) {
     if (a[0] == '-' && b[0] == '-') {
         a.erase(a.begin()); b.erase(b.begin());
@@ -66,7 +64,7 @@ string add(string a, string b) {
 string subtract(string a, string b) {
     if (a[0] == '-' && b[0] == '-') {
         a.erase(a.begin()); b.erase(b.begin());
-        return subtract(b, a);
+        return "-" + subtract(b, a);
     }
     else if (a[0] == '-') {
         a.erase(a.begin());
@@ -102,35 +100,9 @@ string subtract(string a, string b) {
     return removeLeadingZeros(res);
 }
 
-string multiply(string a, string b) {
-    int j = a.length() - 1, i = b.length() - 1, flag = 0;
 
-    if ((i == 1 && b == "0") || (j == 1 && a == "0"))return "0";
+// 999999999999999999999999999999999999999999999999999999999999 999999999999999999999999999999999999999999999999999999999999
+// 123456789123456789123456789 987654321987654321987654321
 
-    if ((a[0] == '-') && (b[0] == '-') || (a[0] != '-') && (b[0] != '-'))flag = 1;
-    if (a[0] == '-')a.erase(a.begin());
-    if (b[0] == '-')b.erase(b.begin());
-
-    string res = "0";
-    for (int i = b.length() - 1; i >= 0; i--) {
-        string temp;
-        int carry = 0;
-        for (int j = a.length() - 1; j >= 0; j--) {
-            int product = (b[i] - '0') * (a[j] - '0') + carry;
-            carry = product / 10;
-            product %= 10;
-            temp = to_string(product) + temp;
-        }
-        if (carry > 0) {
-            temp = to_string(carry) + temp;
-        }
-        for (int j = i; j < b.length() - 1; j++) { // 자릿수 맞추기
-            temp += '0';
-        }
-        res = add(res, temp);
-    }
-    if (!flag) {
-        res = "-" + res;
-    }
-    return removeLeadingZeros(res);
-}
+// -123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789
+// -987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321987654321

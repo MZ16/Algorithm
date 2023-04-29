@@ -966,13 +966,37 @@
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1271.cpp">
+    <ClCompile Include="1271%28나누기 미완성%29.cpp">
       <Filter>소스 파일\백준\report</Filter>
     </ClCompile>
     <ClCompile Include="4150.cpp">
       <Filter>소스 파일\백준\report</Filter>
     </ClCompile>
     <ClCompile Include="2338.cpp">
+      <Filter>소스 파일\백준\report</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16428%28미완성%29.cpp">
+      <Filter>소스 파일\백준\report</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14928.cpp">
+      <Filter>소스 파일\백준\report</Filter>
+    </ClCompile>
+    <ClCompile Include="test55.cpp">
+      <Filter>소스 파일\백준\report</Filter>
+    </ClCompile>
+    <ClCompile Include="15740.cpp">
+      <Filter>소스 파일\백준\report</Filter>
+    </ClCompile>
+    <ClCompile Include="10757.cpp">
+      <Filter>소스 파일\백준\report</Filter>
+    </ClCompile>
+    <ClCompile Include="15552.cpp">
       <Filter>소스 파일\백준\report</Filter>
     </ClCompile>
   </ItemGroup>
