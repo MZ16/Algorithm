@@ -999,6 +999,15 @@
     <ClCompile Include="15552.cpp">
       <Filter>소스 파일\백준\report</Filter>
     </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1074.cpp">
+      <Filter>소스 파일\백준\report</Filter>
+    </ClCompile>
+    <ClCompile Include="2870(2).cpp">
+      <Filter>소스 파일\백준\report</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SWEA.text">
