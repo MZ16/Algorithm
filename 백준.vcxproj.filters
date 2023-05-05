@@ -1008,6 +1008,9 @@
     <ClCompile Include="2870(2).cpp">
       <Filter>소스 파일\백준\report</Filter>
     </ClCompile>
+    <ClCompile Include="1914.cpp">
+      <Filter>소스 파일\백준\report</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SWEA.text">
