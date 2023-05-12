@@ -1029,6 +1029,12 @@
     <ClCompile Include="16002.cpp">
       <Filter>소스 파일\SWEA\D3</Filter>
     </ClCompile>
+    <ClCompile Include="15941.cpp">
+      <Filter>소스 파일\SWEA\D3</Filter>
+    </ClCompile>
+    <ClCompile Include="15868.cpp">
+      <Filter>소스 파일\SWEA\D3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SWEA.text">
