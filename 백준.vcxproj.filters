@@ -1014,6 +1014,18 @@
     <ClCompile Include="6603.cpp">
       <Filter>소스 파일\백준\report</Filter>
     </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="별 찍기13(2523).cpp">
+      <Filter>소스 파일\백준\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="16910.cpp">
+      <Filter>소스 파일\SWEA\D3</Filter>
+    </ClCompile>
+    <ClCompile Include="16800.cpp">
+      <Filter>소스 파일\SWEA\D3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SWEA.text">
