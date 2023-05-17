@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// brute force
 // 2400이 포함된 n번째 수를 찾는다.
 const int INF = 1e6; // 100,000
 
