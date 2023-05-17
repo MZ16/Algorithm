@@ -97,14 +97,14 @@
     <Filter Include="소스 파일\인프런\1\algorithm">
       <UniqueIdentifier>{96c772bd-4686-45cd-9871-daef7d526b60}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\인프런\2">
-      <UniqueIdentifier>{9b1fb649-9335-4a0c-97a0-0e9ee8c8104f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\백준\report">
       <UniqueIdentifier>{1ba27437-ae63-43d9-81bf-0ad2818677a8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\인프런\3">
+    <Filter Include="소스 파일\인프런\3_완탐,백트레킹">
       <UniqueIdentifier>{5d94f7b3-9973-48c0-9f28-fdfc87f10cc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\인프런\2_dfs,bfs">
+      <UniqueIdentifier>{9b1fb649-9335-4a0c-97a0-0e9ee8c8104f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -859,100 +859,100 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2178.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="1012.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="2468.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="2583.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="1992.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="2828.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="2910.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="4659.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="2870.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="10709.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="3474.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="2852.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1438.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="9012.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="4949.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="14502.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2636.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="1068.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1325.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="17298.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="4963.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="1987.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="유레카이론(10448).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="base64.cpp">
-      <Filter>소스 파일\인프런\2</Filter>
+      <Filter>소스 파일\인프런\2_dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="10448.cpp">
       <Filter>소스 파일\백준\report</Filter>
@@ -1042,13 +1042,19 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1_ex.cpp">
-      <Filter>소스 파일\인프런\3</Filter>
+      <Filter>소스 파일\인프런\3_완탐,백트레킹</Filter>
     </ClCompile>
     <ClCompile Include="2_ex.cpp">
-      <Filter>소스 파일\인프런\3</Filter>
+      <Filter>소스 파일\인프런\3_완탐,백트레킹</Filter>
     </ClCompile>
     <ClCompile Include="3_ex.cpp">
-      <Filter>소스 파일\인프런\3</Filter>
+      <Filter>소스 파일\인프런\3_완탐,백트레킹</Filter>
+    </ClCompile>
+    <ClCompile Include="4_ex.cpp">
+      <Filter>소스 파일\인프런\3_완탐,백트레킹</Filter>
+    </ClCompile>
+    <ClCompile Include="15686.cpp">
+      <Filter>소스 파일\인프런\3_완탐,백트레킹</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
