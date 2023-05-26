@@ -1065,6 +1065,15 @@
     <ClCompile Include="16234.cpp">
       <Filter>소스 파일\인프런\3_완탐,백트레킹</Filter>
     </ClCompile>
+    <ClCompile Include="4179%28맞왜틀%29.cpp">
+      <Filter>소스 파일\인프런\3_완탐,백트레킹</Filter>
+    </ClCompile>
+    <ClCompile Include="12869.cpp">
+      <Filter>소스 파일\인프런\3_완탐,백트레킹</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SWEA.text">
