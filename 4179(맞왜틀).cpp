@@ -13,7 +13,6 @@ int dx[4] = { 0,1,0,-1 };
 queue<pii> q;
 pii pp;
 int ans;
-bool flag = 0;
 
 void fire_bfs() {
 	while (!q.empty()) {
@@ -38,7 +37,6 @@ void people_bfs() {
 		tie(y, x) = q.front(); q.pop();
 		if (y == 0 || y == N - 1 || x == 0 || x == M - 1) {
 			ans = people_visited[y][x];
-			flag = 1;
 			return;
 		}
 		for (int i = 0; i < 4; i++) {
@@ -72,8 +70,8 @@ int main() {
 	fire_bfs();
 	people_bfs();
 	
-	if (flag)cout << ans;
-	if(ans==0) cout << "IMPOSSIBLE";
+	if (ans) cout << ans;
+	else cout << "IMPOSSIBLE";
 
 	return 0;
 }
