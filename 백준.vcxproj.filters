@@ -1104,6 +1104,9 @@
     <ClCompile Include="1987(1).cpp">
       <Filter>소스 파일\인프런\3_완탐,백트레킹</Filter>
     </ClCompile>
+    <ClCompile Include="2529.cpp">
+      <Filter>소스 파일\인프런\3_완탐,백트레킹</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SWEA.text">
