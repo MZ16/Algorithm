@@ -26,7 +26,7 @@ void water_melting() {
 			if (ny < 0 || ny >= R || nx < 0 || nx >= C || visited_water[ny][nx])continue;
 			if (arr[ny][nx] == 'X') {
 				visited_water[ny][nx] = 1;
-				water_tmpQ.push({ ny,nx });
+				water_tmpQ.push({ ny,nx }); // water의 다음 좌표 저장
 				arr[ny][nx] = '.';
 			}
 		}
@@ -43,7 +43,7 @@ int move_swan() {
 			if (ny < 0 || ny >= R || nx < 0 || nx >= C || visited_swan[ny][nx])continue;
 			visited_swan[ny][nx] = 1;
 			if (arr[ny][nx] == '.') { swanQ.push({ ny,nx }); }
-			else if (arr[ny][nx] == 'X') { swan_tmpQ.push({ ny,nx }); }
+			else if (arr[ny][nx] == 'X') { swan_tmpQ.push({ ny,nx }); } // swan의 다음좌표 저장
 			else if (arr[ny][nx] == 'L')return 1;
 		}
 	}
