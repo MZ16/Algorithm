@@ -1107,7 +1107,7 @@
     <ClCompile Include="2529.cpp">
       <Filter>소스 파일\인프런\3_완탐,백트레킹</Filter>
     </ClCompile>
-    <ClCompile Include="14888.cpp">
+    <ClCompile Include="14888%28미완성%29.cpp">
       <Filter>소스 파일\인프런\3_완탐,백트레킹</Filter>
     </ClCompile>
     <ClCompile Include="유레카이론(10448).cpp">
@@ -1123,6 +1123,9 @@
       <Filter>소스 파일\인프런\3_완탐,백트레킹</Filter>
     </ClCompile>
     <ClCompile Include="2563.cpp">
+      <Filter>소스 파일\인프런\1</Filter>
+    </ClCompile>
+    <ClCompile Include="별10.cpp">
       <Filter>소스 파일\인프런\3_완탐,백트레킹</Filter>
     </ClCompile>
   </ItemGroup>

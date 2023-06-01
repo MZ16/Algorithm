@@ -58,12 +58,12 @@ int main() {
 		for (int j = 0; j < C; j++) {
 			cin >> arr[i][j];
 			// 아래 처럼 설정 시 L이 두개이므로 문제가 생긴다.
-			//if (arr[i][j] == 'L') { visited_swan[i][j] = 1; swanQ.push({ i,j }); } // 백조 초기값 설정
+			//if (arr[i][j] == 'L') { visited_swan[i][j] = 1; swanQ.push({ i,j }); } 
 			if (arr[i][j] == 'L') { swanY = i; swanX = j; }
 			if (arr[i][j] == '.' || arr[i][j] == 'L') { visited_water[i][j] = 1; waterQ.push({ i,j }); } // 물 초기값 설정(백조도 물 위에있음)
 		}
 	}
-	visited_swan[swanY][swanX] = 1; swanQ.push({ swanY,swanX });
+	visited_swan[swanY][swanX] = 1; swanQ.push({ swanY,swanX }); // 백조 초기값 설정
 	while (1) {
 		if (move_swan())break; // true반환 시 백조가 만남
 		water_melting();
