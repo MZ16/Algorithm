@@ -61,3 +61,9 @@ int main() {
 
 // 방문체크를 하지않을경우 bfs의 시간복잡도는 지수크기가 된다. 3^x
 // depth % 2는 다음 depth, (depth+1)%2는 이전 depth이다. / depth의 크기는 flood fill Algorithm과 비슷하다고 한다.
+
+/* flood fill 사용 이유
+*   qSize로 depth를 구분하지 않고 q에 값을 넣고 뺼 경우
+    dfs형태로 탐색하여 가중치가 가장 낮은 최단거리를 return하지 않고 
+    깊이우선탐색으로 만족하는 어떤 값을 return해서 다른값이 나온다.
+*/
