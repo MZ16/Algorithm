@@ -18,7 +18,7 @@ int main() {
     cin.tie(0); cout.tie(0);
     int idx; // 포함할 index
     cin >> idx;
-    for (int i = 0; i < N; i++) {
+    for (int i = 1; i < N; i++) { // i=1인 이유 : 0은 or연산 해봐야 포함시킬 idx값이다.
         go(idx | (1 << i)); // 아래 주석
     }
     
