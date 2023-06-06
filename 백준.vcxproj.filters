@@ -1146,6 +1146,9 @@
     <ClCompile Include="19942.cpp">
       <Filter>소스 파일\인프런\4_비트마스킹</Filter>
     </ClCompile>
+    <ClCompile Include="1285.cpp">
+      <Filter>소스 파일\인프런\4_비트마스킹</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SWEA.text">
