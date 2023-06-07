@@ -1149,6 +1149,12 @@
     <ClCompile Include="1285.cpp">
       <Filter>소스 파일\인프런\4_비트마스킹</Filter>
     </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="POI_sort.cpp">
+      <Filter>소스 파일\인프런\4_비트마스킹</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SWEA.text">
