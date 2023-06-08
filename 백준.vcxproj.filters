@@ -1161,6 +1161,12 @@
     <ClCompile Include="BigInteger.cpp">
       <Filter>소스 파일\인프런</Filter>
     </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="base64(2).cpp">
+      <Filter>소스 파일\인프런\1\algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SWEA.text">
