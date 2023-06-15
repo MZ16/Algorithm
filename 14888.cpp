@@ -2,16 +2,16 @@
 using namespace std;
 
 int N;
-int arr[104];
-int visited[104];
+int arr[11];
+int visited[11];
 int oper[4];
 vector<int> _index; // oper_idx
 vector<char> v; // operater 저장
 
-int MAX = -1300000000;
-int MIN = 1300000000;
+int MAX = -1000000000;
+int MIN = 1000000000;
 
-void dfs(int idx) {
+void dfs() {
 	if (_index.size() == N - 1) {
 		int result = arr[0];
 		for (int i = 0; i < N-1; i++) {
@@ -29,7 +29,7 @@ void dfs(int idx) {
 		if (visited[i])continue;
 		visited[i] = 1;
 		_index.push_back(i);
-		dfs(idx + 1);
+		dfs();
 		visited[i] = 0;
 		_index.pop_back();
 	}
@@ -52,10 +52,15 @@ int main() {
 				else if (i == 3)v.push_back('/');				
 			}
 	}
-	dfs(0);
+	dfs();
 	cout << MAX << "\n" << MIN;
 	return 0;
 }
+
+// 공유된 코드에 비해 시간이 오래걸리는 이유
+// 해당코드는 백트레킹하여 연산자 인덱스의 순열을 구하여 저장된 연산자 벡터와 매칭하여 풀었는 문제이다.
+// N의 범위가 11이하 이므로 순열의 공식인 nPr에 대입하면 최댓값이 약 4천만까지 나올 수 있어 실행시간이 꽤 걸릴 수 있다.
+
 
 /*
 2 <= N <= 11, 1 <= A <= 100,

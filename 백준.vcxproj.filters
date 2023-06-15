@@ -109,6 +109,9 @@
     <Filter Include="소스 파일\인프런\4_비트마스킹">
       <UniqueIdentifier>{8a3683bf-af0b-420e-820c-1efc02c30880}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Navis">
+      <UniqueIdentifier>{724dc1aa-f120-4be6-90d9-02769c5c58cf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="별찍기_2.cpp">
@@ -1110,7 +1113,7 @@
     <ClCompile Include="2529.cpp">
       <Filter>소스 파일\인프런\3_완탐,백트레킹</Filter>
     </ClCompile>
-    <ClCompile Include="14888%28미완성%29.cpp">
+    <ClCompile Include="14888.cpp">
       <Filter>소스 파일\인프런\3_완탐,백트레킹</Filter>
     </ClCompile>
     <ClCompile Include="유레카이론(10448).cpp">
@@ -1166,6 +1169,30 @@
     </ClCompile>
     <ClCompile Include="base64(2).cpp">
       <Filter>소스 파일\인프런\1\algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>소스 파일\Navis</Filter>
+    </ClCompile>
+    <ClCompile Include="2.cpp">
+      <Filter>소스 파일\Navis</Filter>
+    </ClCompile>
+    <ClCompile Include="3.cpp">
+      <Filter>소스 파일\Navis</Filter>
+    </ClCompile>
+    <ClCompile Include="4.cpp">
+      <Filter>소스 파일\Navis</Filter>
+    </ClCompile>
+    <ClCompile Include="5.cpp">
+      <Filter>소스 파일\Navis</Filter>
+    </ClCompile>
+    <ClCompile Include="6.cpp">
+      <Filter>소스 파일\Navis</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test_Algorithm.cpp">
+      <Filter>소스 파일\인프런</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
