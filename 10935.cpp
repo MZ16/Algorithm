@@ -3,7 +3,7 @@ using namespace std;
 
 string base64_charSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 						"abcdefghijklmnopqrstuvwxyz"
-						"0123456789+/";
+						"0123456789+/=";
 
 string base64_encode(string& input) {
 	string encode;
