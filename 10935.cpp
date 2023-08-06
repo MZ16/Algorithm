@@ -27,7 +27,7 @@ string base64_encode(string& input) {
 	// 문자열 길이가 3으로 나누어 떨어지지 않을 경우, 최대 16bit
 	if (i > 0) {
 		for (int j = i; j < 3; j++)
-			base64_array3[j] = '\0'; // 남는 데이터 0으로 초기화
+			base64_array3[j] = '\0'; // 남는 데이터 '\0'으로 초기화
 
 		base64_array4[0] = (base64_array3[0] & 0xfc) >> 2; // [0] 상위 6bit
 		base64_array4[1] = ((base64_array3[0] & 0x03) << 4) + ((base64_array3[1] & 0xf0) >> 4); // [0] 하위 2bit + [1] 상위 4bit
