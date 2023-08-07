@@ -2,19 +2,19 @@
 using namespace std;
 
 const int MAX = 52;
-vector<int> home, chiken;
-vector<vector<int>> chiken_list;
+vector<int> home, chicken;
+vector<vector<int>> chicken_list;
 int _map[MAX][MAX];
 int N, M;
 
-void func(int idx, vector<int>& v) {
+void dfs(int idx, vector<int>& v) {
 	if (v.size() == M) {
-		chiken_list.push_back(v);
+		chicken_list.push_back(v);
 		return;
 	}
-	for (int i = idx; i < chiken.size(); i++) {
+	for (int i = idx; i < chicken.size(); i++) {
 		v.push_back(i);
-		func(i + 1, v);
+		dfs(i + 1, v);
 		v.pop_back();
 	}
 	return;
@@ -29,20 +29,20 @@ int main() {
 		for (int j = 0; j < N; j++) {
 			cin >> _map[i][j];
 			if (_map[i][j] == 1)home.push_back(i * 1000 + j);
-			if (_map[i][j] == 2)chiken.push_back(i * 1000 + j);
+			if (_map[i][j] == 2)chicken.push_back(i * 1000 + j);
 		}
 	}
 
 	vector<int> tmp;
-	func(0, tmp);
+	dfs(0, tmp);
 
 	int ans = 987654321;
-	for (vector<int> cList : chiken_list) {
+	for (vector<int> cList : chicken_list) {
 		int ret = 0;
 		for (int h : home) {
 			int MIN = 987654321;
 			for (int idx : cList) {
-				int val = abs(h / 1000 - chiken[idx] / 1000) + abs(h % 1000 - chiken[idx] % 1000);
+				int val = abs(h / 1000 - chicken[idx] / 1000) + abs(h % 1000 - chicken[idx] % 1000);
 				MIN = min(val, MIN);
 			}
 			ret += MIN;
