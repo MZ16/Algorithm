@@ -3,14 +3,14 @@ using namespace std;
 
 string base64_charSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"	// 0~25
 						"abcdefghijklmnopqrstuvwxyz"	// 26~51
-						"0123456789+/";				// 52~61,62,63,padding
+						"0123456789+/";				// 52~61,62,63
 
 string base64_decode(string &input) {
 	string decode;
 	int i = 0;
 	unsigned base64_array3[3], base64_array4[4];
 	for (char c : input) {
-		//if (c == '=') break;
+		if (c == '=') break;
 		if (c >= 'A' && c <= 'Z') { // 0 ~ 25
 			base64_array4[i++] = c - 'A';
 		}
@@ -24,11 +24,6 @@ string base64_decode(string &input) {
 		else if (c == '/') base64_array4[i++] = 63;
 		
 		if (i == 4) {
-			/*
-				<< 2+ 30 >>4 / 0,1
-				0f <<4 + 3c >>2 1,2
-				03<<6 + >>2(안해도될듯) / 2,3
-			*/
 			base64_array3[0] = (base64_array4[0] << 2) + ((base64_array4[1] & 0x30) >> 4);
 			base64_array3[1] = ((base64_array4[1] & 0x0f) << 4) + ((base64_array4[2] & 0x3c) >> 2);
 			base64_array3[2] = ((base64_array4[2] & 0x03) << 6) + base64_array4[3];
@@ -60,3 +55,9 @@ int main() {
 
 	return 0;
 }
+
+/*
+디코더는 6bit로 저장한 문자를 8bit로 변환시킨다.
+유의할점은 입력된 값은 아스키코드 값이기 떄문에 base64 문자열셋에 맞게 변환하는 과정이 첫번째로 필요하다.
+이후 6bit -> 8bit 변환과정을 진행해주면 디ㅗㄴ다.
+*/
