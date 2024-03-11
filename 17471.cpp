@@ -36,7 +36,7 @@ int main() {
 		}
 	}
 
-	for (int i = 1; i < (1 << N); i++) {
+	for (int i = 1; i < (1 << N)-1; i++) {
 		fill(visited, visited + 11, 0);
 		fill(comp, comp + 11, 0);
 		int idx1 = -1, idx2 = -1; // 각 구역의 시작점
@@ -59,5 +59,9 @@ int main() {
 		}
 	}
 	cout << (ans == INF ? -1 : ans);
-
+	return 0;
 }
+
+// 실수한 부분
+// 39line, 두개의 구역은 각 각 최소 한개의 구역은 포함되어야 한다는 조건이 있기 때문에
+// 비트의 최대 크기보다 한개 작은 값으로 조건을 주어야 한다.
