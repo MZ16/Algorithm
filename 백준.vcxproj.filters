@@ -1293,6 +1293,12 @@
     <ClCompile Include="2477.cpp">
       <Filter>소스 파일\백준\구현</Filter>
     </ClCompile>
+    <ClCompile Include="유레카이론(10448).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2578.cpp">
+      <Filter>소스 파일\백준\구현</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="SWEA.text">
